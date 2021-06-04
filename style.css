@@ -1,0 +1,87 @@
+body {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    transition: transform .2s;
+    border: 5px solid #000000;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
+
+.menu {
+    background: white;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0px;
+}
+
+#welcome {
+    background: linear-gradient(#E1BEE7 0%, #90CAF9 100%);
+}
+
+#about {
+    background: darkturquoise;
+}
+
+.links:hover {
+    background-color: aquamarine;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.links {
+    float: left;
+    color: darkcyan;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+p {
+    font-size: 17px;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: underline;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#contacts{
+    background:deepskyblue;
+}
+#contacts iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display:inline;
+}
+.contact_1 a{
+    color:white;
+    text-shadow:none;
+}
